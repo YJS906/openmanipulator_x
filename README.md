@@ -76,11 +76,12 @@ ros2 launch open_manipulator_x_moveit_config moveit_gazebo.launch.py
 ```
 
 6. OpenManipulator Control GUI
-Moveit을 실행시킨 뒤
+   
+
 ```bash
 ros2 launch open_manipulator_x_moveit_config moveit_core.launch.py
 ```
-실행 
+Moveit을 실행시킨 뒤 실행 
 ```bash
 ros2 launch open_manipulator_x_gui open_manipulator_x_gui.launch.py
 ```
